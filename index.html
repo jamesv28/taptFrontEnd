@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Tapt | home</title>
+    <meta name="description" content="the ultimate source for breweries and beer">
+    <meta name="author" content="James Volmert and Tyler Rozboril">
+    <meta name="keywords" content="beer breweries pub crawl ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/main.css">
 </head>
 <body>
 
+<div ui-view>
+
+</div>
+<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+<script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+<!-- controllers -->
+<script type="text/javascript" src="app/home/homeCtrl.js"></script>
+
+<!-- routes -->
+<script type="text/javascript" src="app/home/homeRoute.js"></script>
 </body>
 </html>

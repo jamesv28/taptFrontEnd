@@ -1,0 +1,43 @@
+/******* fonts *******/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+$fireBrick: #B22222;
+
+/******* General ******/
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+strong {
+  font-weight: 700;
+}
+
+.red {
+  color: $fireBrick;
+}
+/******** home page ********/
+#homeHead {
+  background: url("http://fc06.deviantart.net/fs70/i/2010/290/9/8/scottish_pub_by_zardo-d30xw62.jpg");
+  -webkit-background-size: cover;
+  background-size:cover;
+  background-position: center center;
+  background-repeat:no-repeat;
+  height: 50vh;
+}
+
+#whoWeAre {
+  margin-bottom: 40px;
+}
+
+#map {
+  //background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuA9S6Mv4JLbkzCur8lFVZuAmvudE4tGKdt5w0werCLEf2gsHT");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuA9S6Mv4JLbkzCur8lFVZuAmvudE4tGKdt5w0werCLEf2gsHT");
+  -webkit-background-size: cover;
+  background-size:cover;
+  background-position: center center;
+  height: 250px;
+}
