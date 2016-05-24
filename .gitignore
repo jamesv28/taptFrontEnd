@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
-node_modules/
+node_modules
 .idea/workspace.xml
+node_modules/angular
+node_modules/angular-ui-router
